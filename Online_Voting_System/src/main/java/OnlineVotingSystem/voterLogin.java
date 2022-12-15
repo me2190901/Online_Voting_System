@@ -50,7 +50,6 @@ public class voterLogin extends HttpServlet {
                 String contact = rs.getString("pnumber");
                 response.sendRedirect("userWelcome.jsp?con="+contact);
                 out.println(contact);
-                System.out.println(contact);
             }else{
                 out.println("Please enter valid card number");
             }
