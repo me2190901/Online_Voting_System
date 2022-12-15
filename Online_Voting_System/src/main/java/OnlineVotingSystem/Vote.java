@@ -21,6 +21,7 @@ public class Vote extends HttpServlet {
 		
 		String voter_card_number = request.getParameter("voterNumber");
 		String party = request.getParameter("party");
+		System.out.println(party);
 		
 		try {
             
